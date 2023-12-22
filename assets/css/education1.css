@@ -24,6 +24,10 @@ td#University {
   text-align: center;
 }
 
+td#Year {
+  text-align: center;
+}
+
 #main article#education {
 			-moz-transform: translateY(0.25rem);
 			-webkit-transform: translateY(0.25rem);
@@ -37,7 +41,7 @@ td#University {
 			width: 100rem;
 			position: relative;
 			background-color: rgba(27, 31, 34, 0.85);
-			border-radius: 20px;
+			border-radius: 4px;
 			opacity: 0;
 		}
 			#main article.active#education {
