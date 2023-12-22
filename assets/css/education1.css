@@ -1,0 +1,49 @@
+#education1{
+  box-sizing: border-box;
+}
+
+#education1 h2 {
+	text-align: center;
+}
+
+/* Create a two-column layout */
+#education1.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+#education1.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+td#University {
+  text-align: center;
+}
+
+#main article#education {
+			-moz-transform: translateY(0.25rem);
+			-webkit-transform: translateY(0.25rem);
+			-ms-transform: translateY(0.25rem);
+			transform: translateY(0.25rem);
+			-moz-transition: opacity 0.325s ease-in-out, -moz-transform 0.325s ease-in-out;
+			-webkit-transition: opacity 0.325s ease-in-out, -webkit-transform 0.325s ease-in-out;
+			-ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
+			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
+			width: 100rem;
+			position: relative;
+			background-color: rgba(27, 31, 34, 0.85);
+			border-radius: 20px;
+			opacity: 0;
+		}
+			#main article.active#education {
+				-moz-transform: translateY(0);
+				-webkit-transform: translateY(0);
+				-ms-transform: translateY(0);
+				transform: translateY(0);
+        opacity: 1;
+}
